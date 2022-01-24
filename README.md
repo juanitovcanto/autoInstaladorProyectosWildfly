@@ -16,5 +16,11 @@ Su uso está pensado para recibir los proyectos compilados desde alguna aplicaci
 
 sh wildfly-instalador-proyectos.sh _NombreProyectoCompilado.war_ _FechaDeCompilacion_ _NombreRepositorio_
 
+## Nota
 
+La funcion que verifica el estado del servidor Wildfly supone que ejecuto como un daemon local de un usuario con Systemd. En caso de haberse ejecutado como root debe sacar "--user" en la variable JBOSS_CLI_STATUS quedando así:
 
+```Shell
+JBOSS_CLI_STATUS="systemctl is-active --quiet wildfly.service"
+```
+En caso de usar jboss , cambiar el wildfly.service por el nombre correspondiente
