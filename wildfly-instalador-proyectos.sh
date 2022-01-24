@@ -229,6 +229,8 @@ CheckFile
 # Paso 3: Verifica formato de archivos permitidos (.war, .jar, .ear)
 CheckFileFormat
 
+CheckJbossConnection
+
 # Paso 4: Chequea si el war se encuentra instalado
 CheckWarInstalled
 
