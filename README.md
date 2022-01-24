@@ -6,6 +6,7 @@ Shell script que permite instalar proyectos java compilados (WAR,JAR,EAR) en el 
 
 * Wildfly instalado (cualquier versión) en /opt/ (puede cambiar dirección en el código)
 * Crear en directorio de usuario ~ el directorio ~/instaladorWildfly/log para logs y ~/instaladorWildfly/sh donde estará el shell script
+* Parametro DIRECTORIO_WILDFLY debe modificarse con el nombre del directorio de wildfly o JBOSS que tenga instalado
 
 
 
