@@ -1,6 +1,6 @@
 # Instalador de Proyectos WILDFLY / JBOSS
 
-Shell script que permite instalar proyectos java compilados (WAR,JAR,EAR) en el servidor de aplicaciones instalado en el mismo sistema.
+Shell script que permite instalar proyectos java compilados (WAR,JAR,EAR) en el servidor de aplicaciones Wildfly o JBOSS instalado en el mismo sistema.
 
 ## Prerequisitos
 
